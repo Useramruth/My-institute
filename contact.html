@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Website Desgin</title>
+  <link rel = "stylesheet" href = "style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href ="about.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+       <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="academics.html">ACADEMICS</a></li>
+          <li><a href="placements.html">PLACEMENTS</a></li>
+          <li><a href="admissions.html">ADMISSIONS</a></li>
+          <li><a href="MandatoryDisclosure.html">MANDATORY DISCLOSURE</a></li>
+          <li><a href="Examinations.html">EXAMINATIONS</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="">EAMCET CODE : AVNIET</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>CONTACT US</h1>
+  </section>
+
+  <!------ contact us ------>
+
+  <sectionc class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1905.2197030102086!2d78.61966043875327!3d17.245963895904342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba72da45809e5%3A0x79de58168852f33!2sAVN%20INSTITUTE%20OF%20ENGINEERING%20AND%20TECHNOLOGY%2C%20Ramdas%20Pally%2C%20Telangana%20501510!5e0!3m2!1sen!2sin!4v1734441849796!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  </sectionc>
+
+  <section class="contact-us">
+
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h6>AVN Institute of Engineering & Technology</h6>
+            <p>Koheda Road,
+              M.P.Patelguda Post 
+              Ibrahimpatnam (M),
+              Ranga Reddy Dist– 501 510.
+              T.S. India.</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>Mobile Number</h5>
+            <p>9248011441/2/6/8</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>principal@avniet.ac.in</h5>
+            <p>Email us your query</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>College Numbers</h5>
+            <p>9248011441 ( Admissions)<br>9248011442 ( Office )<br>9248011446 ( Reception )<br>9248011448 ( Office/Scholarship )</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>For Admissions</h5>
+            <p>Contact:<br>B. Rambhupal Reddy<br>Chief Administrative Officer<br>Ph. 9248011441</p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+
+        <form action="">
+          <input type="text" placeholder="Enter your name" required>
+          <input type="email" placeholder="Enter email address" required>
+          <input type="text" placeholder="Enter your subject" required>
+          <textarea rows="8" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+h
+
+  
+
+<!------ Footer ------>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Welcome to AVNIET is dedicated for transforming the students into highly competent engineers with high level of motivation,<br>professional skills and self-confidence to achieve excellence in the field of professional education.
+    We inculcate in them Effective Communication Skills, Excellent Team Management Skills to work and lead a team for achieving excellent results in their professional pursuits.</p>
+    <div class="icons">
+      <i class="fa fa-google"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-copyright"></i>
+    </div>
+  <p>Developed By <i class="fa fa-heart-o"></i> Amruth From Avniet</p>
+  <p>Copyright-2024 By AVN INSTITUTE OF TECHNOLOGY | Privacy Policy</p><i class="fa fa-copyright"></i>
+</section>
+
+
+
+
+
+  <!------JavaScript for Toggle Menu------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right ="0"
+    }
+    function hideMenu(){
+      navLinks.style.right ="-200px";
+    }
+  </script>
+
+  
+</body>
+</html>
